@@ -47,12 +47,21 @@ body {
   left: 0;
   transform: translateY(-50%);
   z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
   width: 100%;
   padding: 10px 0 10px 80px;
-  text-align: center;
   background: rgba(0, 0, 0, 0.55);
   color: var(--white);
   font-size: 64px;
+}
+.container .hero-part h1 img {
+  width: 70px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 0;
 }
 .container .hero-part img {
   width: 100%;
@@ -62,11 +71,6 @@ body {
 }
 .container .form-part {
   padding: 40px 60px;
-}
-.container .form-part .odin-logo {
-  display: block;
-  width: 100px;
-  margin: 0 auto 15px;
 }
 .container .form-part .header-txt {
   margin-bottom: 10px;
