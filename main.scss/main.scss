@@ -28,14 +28,14 @@ body {
 	height: 700px;
 	padding: 20px;
 	border-radius: 15px;
+	overflow: hidden;
 	background-color: var(--white);
 	box-shadow: 8px 20px 20px hsla(0, 0%, 0%, 0.05);
 	.hero-part {
 		position: relative;
 		grid-column: 1/2;
 		min-width: 370px;
-		height: calc(100% + 40px);
-		margin: -20px 0 -20px -20px;
+		height: 100%;
 		h1 {
 			position: absolute;
 			top: 65%;
