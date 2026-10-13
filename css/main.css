@@ -7,10 +7,10 @@
 :root {
   --white: hsl(209, 76%, 87%);
   --light-gray: hsl(212, 45%, 89%);
-  --grayish-blue: #051ef8ee;
-  --grayish-blue-hovered: #fc032d;
+  --grayish-blue: #0597f8ee;
+  --grayish-blue-hovered: #067973;
   --dark-blue: hwb(0 0% 100%);
-  --strawberry-red: hsl(229, 100%, 50%);
+  --strawberry-red: hsl(234, 100%, 49%);
   --green: hsl(167, 84%, 57%);
 }
 
