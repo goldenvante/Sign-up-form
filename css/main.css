@@ -52,7 +52,7 @@ body {
   justify-content: center;
   gap: 15px;
   width: 100%;
-  padding: 10px 0 10px 80px;
+  padding: 10px 0;
   background: rgba(0, 0, 0, 0.55);
   color: var(--white);
   font-size: 64px;
