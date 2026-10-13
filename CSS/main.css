@@ -5,12 +5,12 @@
 }
 
 :root {
-  --white: hsl(0, 0%, 100%);
+  --white: hsl(209, 76%, 87%);
   --light-gray: hsl(212, 45%, 89%);
-  --grayish-blue: #005beeee;
-  --grayish-blue-hovered: #005ef5;
+  --grayish-blue: #051ef8ee;
+  --grayish-blue-hovered: #fc032d;
   --dark-blue: hwb(0 0% 100%);
-  --strawberry-red: hsl(354, 84%, 57%);
+  --strawberry-red: hsl(229, 100%, 50%);
   --green: hsl(167, 84%, 57%);
 }
 
@@ -42,14 +42,21 @@ body {
 }
 .container .hero-part h1 {
   position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: var(--light-gray);
-  font-size: 100px;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  z-index: 1;
+  width: 100%;
+  padding: 8px 0;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.3);
+  color: var(--white);
+  font-size: 48px;
 }
 .container .hero-part img {
   width: 100%;
+  height: 100%;
+  object-fit: cover;
   border-radius: 10px;
 }
 .container .form-part {
@@ -101,13 +108,13 @@ body {
 }
 .container .form-part form input:focus:invalid {
   border: 1px solid var(--strawberry-red);
-  background-color: rgb(255, 96, 96);
+  background-color: rgb(137, 157, 247);
 }
 .container .form-part form input:focus:valid {
   border: 1px solid var(--green);
 }
 .container .form-part form input:valid {
-  background-color: rgba(161, 255, 107, 0.884);
+  background-color: rgba(132, 132, 136, 0.884);
 }
 .container .form-part form .input-error {
   visibility: hidden;

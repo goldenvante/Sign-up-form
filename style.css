@@ -38,7 +38,7 @@
                     <label for="password">password*</label>
                     <input type="password" id="password"
                         title="Password must contain min.8 characters: letters, digits and special characters."
-                        placeholder="********" name="password"
+                        placeholder="password" name="password"
                         pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$" required
                         autocomplete="off">
                 </div>

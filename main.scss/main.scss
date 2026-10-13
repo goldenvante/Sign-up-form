@@ -34,18 +34,26 @@ body {
 		position: relative;
 		grid-column: 1/2;
 		min-width: 370px;
-		height: 100%;
+		height: calc(100% + 40px);
+		margin: -20px 0 -20px -20px;
 		h1 {
 			position: absolute;
-			bottom: 0;
-			left: 50%;
-			transform: translate(-50%, -50%);
-			color: var(--light-gray);
-			font-size: 100px;
+			top: 65%;
+			left: 0;
+			transform: translateY(-50%);
+			z-index: 1;
+			width: 100%;
+			padding: 10px 0;
+			text-align: center;
+			background: rgba(0, 0, 0, 0.55);
+			color: var(--white);
+			font-size: 64px;
 		}
 		img {
 			width: 100%;
-			border-radius: 10px;
+			height: 100%;
+			object-fit: cover;
+			border-radius: 15px 0 0 15px;
 		}
 	}
 	.form-part {
