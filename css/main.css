@@ -48,7 +48,7 @@ body {
   transform: translateY(-50%);
   z-index: 1;
   width: 100%;
-  padding: 10px 0;
+  padding: 10px 0 10px 80px;
   text-align: center;
   background: rgba(0, 0, 0, 0.55);
   color: var(--white);
@@ -61,7 +61,12 @@ body {
   border-radius: 15px 0 0 15px;
 }
 .container .form-part {
-  padding: 50px 100px;
+  padding: 40px 60px;
+}
+.container .form-part .odin-logo {
+  display: block;
+  width: 100px;
+  margin: 0 auto 15px;
 }
 .container .form-part .header-txt {
   margin-bottom: 10px;
@@ -74,10 +79,10 @@ body {
   color: var(--strawberry-red);
 }
 .container .form-part form {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
 }
 .container .form-part form .col-one,
 .container .form-part form .col-two {
@@ -85,7 +90,7 @@ body {
   flex-direction: column;
 }
 .container .form-part form label {
-  margin: 20px 0 5px 0;
+  margin: 8px 0 4px 0;
   font-size: 11px;
   text-transform: uppercase;
 }
