@@ -138,7 +138,7 @@ body {
 }
 .container .form-part form .button-box .error-info-btn {
   margin-bottom: 5px;
-  font-size: 12px;
+  font-size: 20px;
   color: var(--strawberry-red);
 }
 .container .form-part form .button-box button {
@@ -153,6 +153,7 @@ body {
 }
 .container .form-part form .button-box button:hover {
   background: var(--grayish-blue-hovered);
+  font-size: 7px;
 }
 .container .form-part form .button-box a {
   color: var(--grayish-blue);

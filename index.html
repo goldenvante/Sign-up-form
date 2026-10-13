@@ -15,7 +15,7 @@
 <body>
     <div class="container">
         <div class="hero-part">
-            <h1><img src="img/odin-logo.png" alt="Odin logo"> BLƱƎ</h1>
+            <h1><img src="img/odin-logo.png" alt="Odin logo"> BLƱƎ</h1> 
             <img src="img/playa.jpg" alt="Playa beach">
         
         </div>
@@ -30,25 +30,27 @@
                 <div class="col-one">
                     <label for="first_name">first name*</label>
                     <input type="text" id="first_name" name="first_name" placeholder="Maria" pattern="^[^0-9]+$" value=""
-                        required autocomplete="off">
+                        required autocomplete="off"> 
+                        <label for="last_name">last name*</label>
+                    <input type="text" id="last_name" name="last_name" placeholder="Sanchez" pattern="^[^0-9]+$" required
+                        autocomplete="off">
                     <label for="phone_number">phone number*</label>
                     <input id="phone_number" name="phone_number" placeholder="525333777" pattern="^[0-9]{9}$" required
                         autocomplete="off">
+                   
+                </div>
+                <div class="col-two">
+                   
+                    <label for="email">email*</label>
+                    <input type="email" id="email" name="email" placeholder="you@example.com"
+                        pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" required autocomplete="off">
                     <label for="password">password*</label>
                     <input type="password" id="password"
                         title="Password must contain min.8 characters: letters, digits and special characters."
                         placeholder="password" name="password"
                         pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$" required
-                        autocomplete="off">
-                </div>
-                <div class="col-two">
-                    <label for="last_name">last name*</label>
-                    <input type="text" id="last_name" name="last_name" placeholder="Sanchez" pattern="^[^0-9]+$" required
-                        autocomplete="off">
-                    <label for="email">email*</label>
-                    <input type="email" id="email" name="email" placeholder="you@example.com"
-                        pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" required autocomplete="off">
-                    <label for="password_validation">confirm password*</label>
+                        autocomplete="off"> 
+                        <label for="password_validation">confirm password*</label>
                     <input type="password" id="password_validation"
                         pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$"
                         title="Password must contain min.8 characters: letters, digits and special characters."
@@ -57,7 +59,7 @@
                 </div>
 
                 <div class="button-box">
-                    <p class="error-info-btn">*Turn all fields green and hit the button below!</p>
+                    <p class="error-info-btn">*Turn all fields <span class="header-txt italic"> blʊə</span> and hit the button below!</p>
                     <button type="submit" disabled>Create Account</button>
                     <p class="body-txt">Already have an account?<a href="#" target="_blank"> Log in</a></p>
                 </div>
