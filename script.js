@@ -1,5 +1,4 @@
 const form = document.querySelector('form')
-const submitBtn = form.querySelector('button[type="submit"]')
 const passInput = document.getElementById('password')
 const passValidate = document.getElementById('password_validation')
 const inputError = document.querySelector('.input-error')
@@ -30,11 +29,9 @@ function validatePassword() {
 	if (passInput.value !== passValidate.value) {
 		inputError.style.visibility = 'visible'
 		passValidate.setCustomValidity('Passwords do not match.')
-		submitBtn.setAttribute('disabled', true)
 	} else {
 		inputError.style.visibility = 'hidden'
 		passValidate.setCustomValidity('')
-		submitBtn.removeAttribute('disabled')
 	}
 }
 
