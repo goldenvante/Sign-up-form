@@ -126,6 +126,15 @@ body {
 .container .form-part form input:valid {
   background-color: rgba(255, 255, 255, 0.884);
 }
+.container .form-part form input.invalid {
+  border: 1px solid var(--strawberry-red);
+  background-color: rgba(255, 96, 96, 0.15);
+}
+.container .form-part form .field-error {
+  margin-top: 4px;
+  font-size: 12px;
+  color: var(--strawberry-red);
+}
 .container .form-part form .input-error {
   visibility: hidden;
   font-size: 12px;

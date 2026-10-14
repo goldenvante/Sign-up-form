@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en-US">
 
 <head>
     <meta charset="UTF-8">
@@ -25,7 +25,7 @@
      <span class="header-txt italic"> you can</span> be part of us!</p>
                 <span class="header-txt-bold">NO REGRETS!</span>
             </div>
-            <form action="" method="post">
+            <form action="" method="post" novalidate>
 
                 <div class="col-one">
                     <label for="first_name">first name*</label>
@@ -46,14 +46,14 @@
                         pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" required autocomplete="off">
                     <label for="password">password*</label>
                     <input type="password" id="password"
-                        title="Password must contain min.8 characters: letters, digits and special characters."
+                        title="Password must be at least 8 characters and include an uppercase letter, a lowercase letter and a number."
                         placeholder="password" name="password"
-                        pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$" required
+                        pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$" required
                         autocomplete="off"> 
                         <label for="password_validation">confirm password*</label>
                     <input type="password" id="password_validation"
-                        pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$"
-                        title="Password must contain min.8 characters: letters, digits and special characters."
+                        pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}$"
+                        title="Password must be at least 8 characters and include an uppercase letter, a lowercase letter and a number."
                         placeholder="password" required autocomplete="off">
                     <p class="input-error">*Passwords doesn't match.</p>
                 </div>
